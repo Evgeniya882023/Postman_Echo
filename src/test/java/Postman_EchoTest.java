@@ -18,6 +18,6 @@ class Postman_EchoTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("some data", equalTo("Hello,World"));/* --> ваша проверка здесь <-- */
+                .body("data", equalTo("Hello,World"));/* --> ваша проверка здесь <-- */
     }
 }
